@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "build": "react-scripts build"
+
   },
   "keywords": [],
   "author": "",
