@@ -11,6 +11,6 @@ app.get('/welcome', (req, res) => {
     res.send('Welcome Back');
   });
 
-app.listen(port, () => console.log('Example app is listening on port 3000.'));
+app.listen(port, () => console.log('Example app is listening.'));
 
 module.exports=app
